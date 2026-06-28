@@ -4,6 +4,13 @@
 
 *Human-first. AI-powered.*
 
+![status](https://img.shields.io/badge/status-early%20development-e8526a)
+![stability](https://img.shields.io/badge/stability-experimental-e8526a)
+![production](https://img.shields.io/badge/production-not%20ready-090e18)
+![license](https://img.shields.io/badge/license-AGPLv3%20(open%20core)-00e5a0)
+
+> **Early development.** The core C2 is not yet complete and is under active development. Nothing here is production ready. APIs, payloads, and architecture will change without notice. Do not rely on this for live engagements yet.
+
 A next-generation C2 framework for authorized red team operations, adversary emulation, and full-scope offensive engagements. Built on the operational model that made Cobalt Strike the industry standard, TalonC2 adds an autonomous reasoning layer powered by **Lory**, Lorikeet Security's AI engine, that suggests next steps, automates tradecraft, and surfaces findings in real time, with a human operator approving every action.
 
 > Authorized use only. Running TalonC2 against a target requires explicit written authorization (signed statement of work or equivalent scope agreement). See [Legal & Authorized Use](#legal--authorized-use).
@@ -370,15 +377,15 @@ Scope allowlist and malleable profile are required arguments. The server refuses
 ## Roadmap
 
 ```
-Phase 1  Core C2          [##########]  shipped concept
-Phase 2  Lory loop        [#######---]  in design
-Phase 3  Malleable engine [#####-----]  in design
-Phase 4  P2P pivoting     [###-------]  planned
-Phase 5  Auto-reporting   [##--------]  planned
+Phase 1  Core C2          [###-------]  in development
+Phase 2  Lory loop        [##--------]  early design
+Phase 3  Malleable engine [#---------]  early design
+Phase 4  P2P pivoting     [----------]  planned
+Phase 5  Auto-reporting   [----------]  planned
 ```
 
-**Phase 1 - Core C2** `concept`
-Team server, operator client, cross-platform Talons, HTTP/S and DNS listeners, basic post-ex.
+**Phase 1 - Core C2** `in development`
+Team server, operator client, cross-platform Talons, HTTP/S and DNS listeners, basic post-ex. Active work, not yet complete.
 
 **Phase 2 - Lory loop** `in design`
 Reasoning engine integration, suggestion ranking, human approval gate, KB-backed CVE cross-reference.
